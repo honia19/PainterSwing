@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PPaint:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/PPaint_jar</output-path>
+    <root id="archive" name="PPaint.jar">
+      <element id="module-output" name="PPaint" />
+      <element id="module-output" name="icon" />
+      <element id="archive" name="Paint.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
